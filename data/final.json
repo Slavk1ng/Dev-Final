@@ -1,5 +1,30 @@
-  
 {
-    "pageData": {
+    "pageData": [
+	    {
+		"dheader": "Course Description",
         "desc": "A fundamental course in Web Development utilizing contemporary standards, methods, and tools for students to develop skills in creating and deploying web-based content. Students learn development concepts spanning markup and programming languages and libraries, local and hosted environments, versioning control systems, and development tools. ",
-    }
+		"objheader": "Course Learning Objectives",
+		"obj": "The objectives of this course are for students to:",
+		"one": "relate web development concepts and terminology,",
+		"two": "demonstrate the usage of web development technologies,",
+		"three": "develop web-based content,",
+		"four": "determine deﬁciencies in web-based interface design, & ",
+		"five": "create improved web-based interfaces",
+		"topheader": "Course Topics",
+		"ll": "Languages & Libraries",
+		"list": "HTML5, Markdown, CSS3, JavaScript/ECMAScript, jQuery, Bootstrap 4",
+		"ks": "Knowledge & Skills",
+		"ksone": "Web Developer lexicon",
+		"kstwo": "markup, page layouts, behavior, and interaction",	
+		"ksthree": "Document Object Model manipulation, JavaScript Object Notation",
+		"ksfour": "Web Dev Ecosystem",
+		"indentone": "File naming, directory/repository conﬁguration, compression, exporting/cloning, hosting conﬁguration/architecture, ",
+		"indenttwo": "testing & debugging",
+		"ksfive": "Standards:",
+		"indentthree": "Google Style Guide, W3C Accessibility Standards",
+		"devheader": "Dev Tools & Resources",
+		"trone": "DevDocs, W3CSchools, CodeAcademy, Content Delivery Networks, Documentation, Templates",
+		"trtwo": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors"
+	    }
+	]
+}
