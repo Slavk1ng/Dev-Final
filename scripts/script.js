@@ -11,33 +11,45 @@ xhr.onload = function() {
 	
 	//do a loop through our content
 	
-    for (var i = 0; i < responseObject.pageData.length; i++) {
-        newContent += '<div class="TitleXI">';
-		newContent += '<h2>' + responseObject.pageData[i].header1 + '</h2>';
-        newContent += '<p>' + responseObject.pageData[i].TitleXI + '</p>';
-		newContent += '<p>' + responseObject.pageData[i].extended + '</p>';
-	        newContent += '<h3>' + responseObject.pageData[i].midheader + '</h3>';
-		newContent += '<p>' + responseObject.pageData[i].har + '</p>';
-		newContent += '<h2>' + responseObject.pageData[i].IT + '</h2>';
-	        newContent += '<ul>';
-		newContent += '<li>' + responseObject.pageData[i].first + '</li>';
-		newContent += '<li>' + responseObject.pageData[i].second + '</li>';
-		newContent += '<li>' + responseObject.pageData[i].third + '</li>';
-		newContent += '<u>' + responseObject.pageData[i].Policy + '</u>';
-		newContent += '</ul>';
-		newContent += '<h4>' + responseObject.pageData[i].AH + '</h4>';
-	        newContent += '<p>' + responseObject.pageData[i].AH2 + '</p>';
-		newContent += '<p>' + responseObject.pageData[i].AH3 + '</p>';
-		newContent += '<u>' + responseObject.pageData[i].INC + '</u>';
-		newContent += '<h2>' + responseObject.pageData[i].DIS + '</h2>';
-	        newContent += '<ul>';
-		newContent += '<li>' + responseObject.pageData[i].DIS1 + '</li>';
-		newContent += '<li>' + responseObject.pageData[i].DIS2 + '</li>';
+   for (var i = 0; i < responseObject.pageData.length; i++) {
+        newContent += '<div class="desc">';
+		newContent += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
+        newContent += '<p>' + responseObject.pageData[i].desc + '</p>';
+		newContent += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
+		newContent += '<p>' + responseObject.pageData[i].obj + '</p>';
+		newContent += '<ol>';
+		newContent += '<li>' + responseObject.pageData[i].one + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].two + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].three + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].four + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].five + '</li>';
+		newContent += '</ol>';
+		newContent += '<h4>' + responseObject.pageData[i].topheader + '</h4>';
+		newContent += '<b>' + responseObject.pageData[i].ll + '</b>';
 		newContent += '<ul>';
-		newContent += '<li>' + responseObject.pageData[i].DIS3 + '</li>';
-	        newContent += '</ul>';
-		newContent += '<u>' + responseObject.pageData[i].DIS4 + '</u>'
-	    newContent += '</div>';
+		newContent += '<li><i>' + responseObject.pageData[i].list + '</i></li>';
+		newContent += '</ul>';
+		newContent += '<b>' + responseObject.pageData[i].ks + '</b>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].ksone + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].kstwo + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].ksthree + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].ksfour + '</li>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].indentone + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].indenttwo + '</li>';
+		newContent += '</ul>';
+		newContent += '<li>' + responseObject.pageData[i].ksfive + '</li>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].indentthree + '</li>';
+		newContent += '</ul>';
+		newContent += '</ul>';
+		newContent += '<b>' + responseObject.pageData[i].devheader + '</b>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].trone + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].trtwo + '</li>';
+		newContent += '</ul>';
+        newContent += '</div>';
     }
 	//update the page with the new content 
 	document.getElementById('hermes').innerHTML = newContent;
