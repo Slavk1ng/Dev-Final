@@ -5,12 +5,14 @@ var xhr = new XMLHttpRequest();
 xhr.onload = function() {
     responseObject = JSON.parse(xhr.responseText);
     
-	//create new string for the content
+	//generate new content string
+	
     var newContent = '';
 	
-	//loop through the content
+	//do a loop through our content
+	
     for (var i = 0; i < responseObject.pageData.length; i++) {
-        newContent += '<div class="stuff">';
+        newContent += '<div class="desc">';
 		newContent += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
         newContent += '<p>' + responseObject.pageData[i].desc + '</p>';
 		newContent += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
