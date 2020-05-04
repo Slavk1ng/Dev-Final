@@ -55,7 +55,7 @@ xhr.onload = function() {
 };
  
  //prepare the request
-xhr.open('GET', "https://thekaysev.github.io/final/data/final.json", true);
+xhr.open('GET', "https://slavk1ng.github.io/Dev-Final/data/final.json", true);
 //send the request
 xhr.send(null);
 
