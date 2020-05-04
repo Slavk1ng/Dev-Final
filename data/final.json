@@ -20,6 +20,13 @@
 		"DIS2": "It is the responsibility of the student to contact Disability Support Services to initiate the process to develop an accommodation plan. This accommodation plan will not be applied retroactively. Appropriate, reasonable accommodations will be made to allow each student to meet course requirements, but no fundamental or substantial alteration of academic standards will be made. Students needing assistance should contact Disability Support Services. ",
 		"DIS3": " Complete guidelines and requirements for documentation can be found on the DSS web pages.",
 		"DIS4": "UNA Disability Support",
+		"indentone": "File naming, directory/repository conﬁguration, compression, exporting/cloning, hosting conﬁguration/architecture, ",
+		"indenttwo": "testing & debugging",
+		"ksfive": "Standards:",
+		"indentthree": "Google Style Guide, W3C Accessibility Standards",
+		"devheader": "Dev Tools & Resources",
+		"trone": "DevDocs, W3CSchools, CodeAcademy, Content Delivery Networks, Documentation, Templates",
+		"trtwo": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors"
 	    }
 	]
 }
