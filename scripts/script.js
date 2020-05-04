@@ -50,7 +50,7 @@ xhr.onload = function() {
         newContent += '</div>';
     }
 	//update the page with the new content 
-	document.getElementById('pleasework').innerHTML = newContent;
+	document.getElementById('hermes').innerHTML = newContent;
     
 };
  
