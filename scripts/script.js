@@ -41,7 +41,6 @@ xhr.onload = function() {
 		newContent += '<ul>';
 		newContent += '<li>' + responseObject.pageData[i].indentthree + '</li>';
 		newContent += '</ul>';
-		newContent += '</ul>';
 		newContent += '<b>' + responseObject.pageData[i].devheader + '</b>';
 		newContent += '<ul>';
 		newContent += '<li>' + responseObject.pageData[i].trone + '</li>';
