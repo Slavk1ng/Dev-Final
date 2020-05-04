@@ -37,6 +37,7 @@ xhr.onload = function() {
 		newContent += '<li>' + responseObject.pageData[i].DIS3 + '</li>';
 	        newContent += '</ul>';
 		newContent += '<u>' + responseObject.pageData[i].DIS4 + '</u>';
+	    newContent += '</div>';
                 newContent += '</div>';
     }
 	//update the page with the new content 
