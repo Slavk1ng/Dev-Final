@@ -1,9 +1,14 @@
+//create XMLHttpRequest object
 var xhr = new XMLHttpRequest();
 
+//when readystate changes
 xhr.onload = function() {
     responseObject = JSON.parse(xhr.responseText);
     
+	//create new string for the content
     var newContent = '';
+	
+	//loop through the content
     for (var i = 0; i < responseObject.pageData.length; i++) {
         newContent += '<div class="desc">';
 		newContent += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
@@ -44,10 +49,16 @@ xhr.onload = function() {
 		newContent += '</ul>';
         newContent += '</div>';
     }
+	//update the page with the new content 
 	document.getElementById('pleasework').innerHTML = newContent;
     
 };
  
-xhr.open('GET', "https://Slavk1ng.github.io/Dev-Final/data/final.json", true);
+ //prepare the request
+xhr.open('GET', "https://thekaysev.github.io/final/data/final.json", true);
+//send the request
 xhr.send(null);
+
+
+
 
