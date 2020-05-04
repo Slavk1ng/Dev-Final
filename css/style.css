@@ -15,11 +15,3 @@ body {
   color: #7CB342;
 }
 
-.desc {
-  width: 1000px;
-  height: 225px;
-  padding: 30px;
-  margin: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background-color: white;
-}  
