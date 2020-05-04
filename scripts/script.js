@@ -12,10 +12,10 @@ xhr.onload = function() {
 	//do a loop through our content
 	
    for (var i = 0; i < responseObject.pageData.length; i++) {
-        newContent += '<div class="desc">';
-		newContent += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
-        newContent += '<p>' + responseObject.pageData[i].desc + '</p>';
-		newContent += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
+        newContent += '<div class="TitleXI">';
+		newContent += '<h2>' + responseObject.pageData[i].header1 + '</h2>';
+        newContent += '<p>' + responseObject.pageData[i].TitleXI + '</p>';
+		newContent += '<p>' + responseObject.pageData[i].extended + '</p>';
 		newContent += '<p>' + responseObject.pageData[i].obj + '</p>';
 		newContent += '<ol>';
 		newContent += '<li>' + responseObject.pageData[i].one + '</li>';
