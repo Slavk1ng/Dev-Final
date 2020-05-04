@@ -36,8 +36,8 @@ xhr.onload = function() {
 		newContent += '<ul>';
 		newContent += '<li>' + responseObject.pageData[i].DIS3 + '</li>';
 	        newContent += '</ul>';
-		newContent += '<u>' + responseObject.pageData[i].DIS4 + '</u>';
-                newContent += '</div>';
+		newContent += '<u>' + responseObject.pageData[i].DIS4 + '</u>'
+	    newContent += '</div>';
     }
 	//update the page with the new content 
 	document.getElementById('hermes').innerHTML = newContent;
