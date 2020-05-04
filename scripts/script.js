@@ -13,11 +13,11 @@ xhr.onload = function() {
 	
     for (var i = 0; i < responseObject.pageData.length; i++) {
         newContent += '<div class="TitleXI">';
-		newContent += '<h2>' + responseObject.pageData[i].dheader + '</h2>';
+		newContent += '<h2>' + responseObject.pageData[i].header1 + '</h2>';
         newContent += '<p>' + responseObject.pageData[i].TitleXI + '</p>';
 		newContent += '<p>' + responseObject.pageData[i].extended + '</p>';
-	        newContent += '<h3>' + responseObject.pageData[i].objheader + '</h3>';
-		newContent += '<p>' + responseObject.pageData[i].obj + '</p>';
+	        newContent += '<h3>' + responseObject.pageData[i].midheader + '</h3>';
+		newContent += '<p>' + responseObject.pageData[i].har + '</p>';
 		newContent += '<h2>' + responseObject.pageData[i].IT + '</h2>';
 	        newContent += '<ul>';
 		newContent += '<li>' + responseObject.pageData[i].first + '</li>';
