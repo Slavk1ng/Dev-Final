@@ -16,7 +16,7 @@ xhr.onload = function() {
 		newContent += '<h2>' + responseObject.pageData[i].header1 + '</h2>';
         newContent += '<p>' + responseObject.pageData[i].TitleXI + '</p>';
 		newContent += '<p>' + responseObject.pageData[i].extended + '</p>';
-	        newContent += '<h3>' + responseObject.pageData[i].header2 + '</h3>';
+	        newContent += '<h3>' + responseObject.pageData[i].midheader + '</h3>';
 		newContent += '<p>' + responseObject.pageData[i].har + '</p>';
 		newContent += '<h2>' + responseObject.pageData[i].IT + '</h2>';
 	        newContent += '<ul>';
@@ -37,12 +37,23 @@ xhr.onload = function() {
 		newContent += '<li>' + responseObject.pageData[i].DIS3 + '</li>';
 	        newContent += '</ul>';
 		newContent += '<u>' + responseObject.pageData[i].DIS4 + '</u>';
+		newContent += '<li>' + responseObject.pageData[i].ksfive + '</li>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].indentthree + '</li>';
+		newContent += '</ul>';
+		newContent += '</ul>';
+		newContent += '<b>' + responseObject.pageData[i].devheader + '</b>';
+		newContent += '<ul>';
+		newContent += '<li>' + responseObject.pageData[i].trone + '</li>';
+		newContent += '<li>' + responseObject.pageData[i].trtwo + '</li>';
+		newContent += '</ul>';
         newContent += '</div>';
     }
 	//update the page with the new content 
 	document.getElementById('hermes').innerHTML = newContent;
     
 };
+ 
  //prepare the request
 xhr.open('GET', "https://slavk1ng.github.io/Dev-Final/data/final.json", true);
 //send the request
