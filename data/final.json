@@ -16,17 +16,9 @@
 		"AH3": "A university community that allows academic dishonesty will suﬀer harm to the reputation of students, faculty and graduates. It is in the best interest of the entire university community to sanction any individual who chooses not to accept the principles of academic honesty by committing acts such as cheating, plagiarism, or misrepresentation. Oﬀenses are reported to the Vice President for Academic Aﬀairs and Provost for referral to the University Student Discipline System for disposition. ",
 		"INC": "Academic Dishonesty Incident Report",
 		"DIS": "Students with Disabilities ",
-		"ksone": "Web Developer lexicon",
-		"kstwo": "markup, page layouts, behavior, and interaction",	
-		"ksthree": "Document Object Model manipulation, JavaScript Object Notation",
-		"ksfour": "Web Dev Ecosystem",
-		"indentone": "File naming, directory/repository conﬁguration, compression, exporting/cloning, hosting conﬁguration/architecture, ",
-		"indenttwo": "testing & debugging",
-		"ksfive": "Standards:",
-		"indentthree": "Google Style Guide, W3C Accessibility Standards",
-		"devheader": "Dev Tools & Resources",
-		"trone": "DevDocs, W3CSchools, CodeAcademy, Content Delivery Networks, Documentation, Templates",
-		"trtwo": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors"
-	    }
+		"DIS1": "In accordance with the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act of 1973, the University oﬀers reasonable accommodations to students with eligible documented learning, physical and/or psychological disabilities. Under Title II of the Americans with Disabilities Act (ADA) of 1990, Section 504 of the Rehabilitation Act of 1973, and the Americans with Disabilities Amendment Act of 2008, a disability is deﬁned as a physical or mental impairment that substantially limits one or more major life activities as compared to an average person in the population. ",
+		"DIS2": "It is the responsibility of the student to contact Disability Support Services to initiate the process to develop an accommodation plan. This accommodation plan will not be applied retroactively. Appropriate, reasonable accommodations will be made to allow each student to meet course requirements, but no fundamental or substantial alteration of academic standards will be made. Students needing assistance should contact Disability Support Services. ",
+		"DIS3": " Complete guidelines and requirements for documentation can be found on the DSS web pages.",
+		"DIS4": "UNA Disability Support",
 	]
 }
