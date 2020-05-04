@@ -26,7 +26,6 @@ xhr.onload = function() {
 		newContent += '<h4>' + responseObject.pageData[i].Policy + '</h4>';
 		newContent += '</ul>';
 		newContent += '<h4>' + responseObject.pageData[i].AH + '</h4>';
-		newContent += '<b>' + responseObject.pageData[i].ll + '</b>';
 		newContent += '<ul>';
 		newContent += '<li><i>' + responseObject.pageData[i].list + '</i></li>';
 		newContent += '</ul>';
